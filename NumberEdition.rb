@@ -1,9 +1,9 @@
 puts "Bored right now? Think of a Number"
 
-random = rand(100) # Random number between 1-100
+random = rand(100)               # Random number between 1-100
 
 guesses = 8
-while guesses > 0 do #If there is more than 0 guesses left
+while guesses > 0 do             #If there is more than 0 guesses left
 	number = gets.chomp.to_i #Convert input to integer (instead of a string)
 	if number == random then
 		puts "WINNER!! You get a free candy!"
