@@ -1,3 +1,5 @@
+# Authored by: KRT_, KRT_c0c4!N3, kurtunderscore, kurtnextdoor
+
 puts "Bored right now? Think of a Number"
 
 random = rand(100)               # Random number between 1-100
